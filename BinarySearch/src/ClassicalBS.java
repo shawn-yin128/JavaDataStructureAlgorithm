@@ -6,19 +6,19 @@
 public class ClassicalBS {
     public static void main(String[] args) {
         int[] array1 = {};
-        int res1 = BinarySearchClassical(array1, 3);
+        int res1 = binarySearchClassical(array1, 3);
         System.out.println(res1);
         int[] array2 = null;
-        int res2 = BinarySearchClassical(array2, 3);
+        int res2 = binarySearchClassical(array2, 3);
         System.out.println(res2);
         int[] array3 = {1, 2};
-        int res3 = BinarySearchClassical(array3, 3);
+        int res3 = binarySearchClassical(array3, 3);
         System.out.println(res3);
         int[] array4 = {1, 2, 3};
-        int res4 = BinarySearchClassical(array4, 3);
+        int res4 = binarySearchClassical(array4, 3);
         System.out.println(res4);
     }
-    public static int BinarySearchClassical(int[] array, int target) {
+    public static int binarySearchClassical(int[] array, int target) {
         if (array == null || array.length == 0) {
             return -1;
         }
@@ -37,3 +37,8 @@ public class ClassicalBS {
         return -1;
     }
 }
+
+/**
+ * time complexity analysis: at k round, the rest of elements are n*(1/2)^k. when this term = 1, end. so k which is total runing round is logn -> O(logn)
+ * space complexity analysis: O(1)
+ */

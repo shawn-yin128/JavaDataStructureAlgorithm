@@ -5,13 +5,13 @@
 public class MatrixBS {
     public static void main(String[] args) {
         int[][] mat1 = null;
-        int[] res1 = MatrixBinarySearch(mat1, 1);
+        int[] res1 = matrixBinarySearch(mat1, 1);
         System.out.println(res1[0]+" "+res1[1]);
         int[][] mat2 = new int[][] {{1,2},{3,4}};
-        int[] res2 = MatrixBinarySearch(mat2, 3);
+        int[] res2 = matrixBinarySearch(mat2, 3);
         System.out.println(res2[0]+" "+res2[1]);
     }
-    public static int[] MatrixBinarySearch(int[][] matrix, int target) {
+    public static int[] matrixBinarySearch(int[][] matrix, int target) {
         if (matrix == null || matrix.length == 0) {
             return new int[] {-1, -1};
         }
@@ -34,3 +34,8 @@ public class MatrixBS {
         return new int[] {-1, -1};
     }
 }
+
+/**
+ * time complexity analysis: O(log n*m) total elements number is n*m
+ * space complexity analysis: O(1)
+ */
