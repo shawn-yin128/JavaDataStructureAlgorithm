@@ -42,3 +42,8 @@ public class MergeSort {
         return res;
     }
 }
+
+/**
+ * time complexity: O(n + nlogn) = O(logn)
+ * space complexity: O(n + logn) = O(n)
+ */
