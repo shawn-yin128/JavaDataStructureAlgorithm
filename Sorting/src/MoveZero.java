@@ -4,7 +4,7 @@
 public class MoveZero {
     public static void main(String[] args) {
         int[] array = new int[] {0, 9, 8, 1, 0, 0, 2, 4, 0, 6};
-        moveZero(array);
+        array = moveZero(array);
         for (int i =  0; i < array.length; i++) {
             System.out.print(array[i]);
         }
@@ -14,9 +14,9 @@ public class MoveZero {
         array[left] = array[right];
         array[right] = temp;
     }
-    public static void moveZero(int[] array) {
+    public static int[] moveZero(int[] array) {
         if (array == null || array.length == 0) {
-            return;
+            return array;
         }
         int leftBound = 0;
         int rightBound = array.length - 1;
@@ -29,5 +29,6 @@ public class MoveZero {
                 swap(array, leftBound++, rightBound--);
             }
         }
+        return array;
     }
 }
