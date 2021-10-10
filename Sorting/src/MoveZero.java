@@ -32,3 +32,8 @@ public class MoveZero {
         return array;
     }
 }
+
+/**
+ * time complexity: O(n)
+ * space complexity: O(1)
+ */
