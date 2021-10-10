@@ -14,7 +14,7 @@ public class MergeSort {
     }
     public static int[] mergeSort(int[] array, int left, int right) {
         if (left == right) {
-            return new int[] {array[left]};
+            return new int[] {array[left]}; // return a new array because if return array, the reference is always the original one
         }
         int mid = left + (right - left) / 2;
         int[] leftArray = mergeSort(array, left, mid);
