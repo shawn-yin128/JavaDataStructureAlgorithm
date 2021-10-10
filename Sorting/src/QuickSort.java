@@ -22,7 +22,7 @@ public class QuickSort {
         return array;
     }
     public static void quickSort(int[] array, int left, int right) {
-        if (left >= right) {
+        if (left >= right) { // because of pivotIndex + 1 so left may be larger than right
             return;
         }
         int pivotIndex = partition(array, left, right);
