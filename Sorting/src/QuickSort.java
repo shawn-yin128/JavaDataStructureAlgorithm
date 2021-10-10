@@ -47,7 +47,7 @@ public class QuickSort {
         swap(array, leftBound, right);
         return leftBound;
     }
-    public static int pivotIndex(int left, int right) {
+    public static int pivotIndex(int left, int right) { // left and right stands for the range of array
         return left + (int)(Math.random()*(right - left + 1));
     }
     public static void swap(int[] array, int left, int right) {
