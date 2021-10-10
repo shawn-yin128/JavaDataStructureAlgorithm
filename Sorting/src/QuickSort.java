@@ -29,7 +29,7 @@ public class QuickSort {
         quickSort(array, left, pivotIndex - 1);
         quickSort(array, pivotIndex + 1, right);
     }
-    public static int partition(int[] array, int left, int right) {
+    public static int partition(int[] array, int left, int right) { // return the pivot position
         int pivotIndex = pivotIndex(left, right);
         int pivotValue = array[pivotIndex];
         swap(array, pivotIndex, right);
