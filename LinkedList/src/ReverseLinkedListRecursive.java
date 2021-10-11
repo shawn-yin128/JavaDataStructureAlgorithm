@@ -9,3 +9,8 @@ public class ReverseLinkedListRecursive {
         return newHead;
     }
 }
+
+/**
+ * time complexity: O(n)
+ * space complexity: O(n)
+ */
