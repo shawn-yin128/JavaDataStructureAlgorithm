@@ -43,7 +43,7 @@ public class AddTwoNumbers {
             return head;
         }
         ListNode newHead = reverse(head.next);
-        head.next.next = head.next;
+        head.next.next = head;
         head.next = null;
         return newHead;
     }
