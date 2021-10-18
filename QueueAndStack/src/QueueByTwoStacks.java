@@ -1,8 +1,9 @@
+import java.util.Deque;
 import java.util.LinkedList;
 
 public class QueueByTwoStacks {
-    private LinkedList<Integer> in;
-    private LinkedList<Integer> out;
+    private Deque<Integer> in;
+    private Deque<Integer> out;
 
     public QueueByTwoStacks() {
         in = new LinkedList<Integer>();
