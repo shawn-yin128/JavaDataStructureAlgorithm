@@ -11,7 +11,7 @@ public class QueueByTwoStacks {
 
     public Integer poll() {
         move();
-        return out.pollFirst();
+        return out.isEmpty() ? null : out.pollFirst(); // need to make sure can poll
     }
 
     public void offer(int value) {
@@ -20,12 +20,12 @@ public class QueueByTwoStacks {
 
     public Integer peek() {
         move();
-        return out.peekFirst();
+        return out.isEmpty() ? null : out.peekFirst(); // need to make sure there is value to peek
     }
 
     private void move() { // when no elements in out stack, move from in stack to out stack
         if (out.isEmpty()) { // check move or not
-            while (!in.isEmpty()) {
+            while (!in.isEmpty()) { // 注意while
                 out.offerFirst(in.pollFirst());
             }
         }
