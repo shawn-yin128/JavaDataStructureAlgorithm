@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -5,10 +6,12 @@ import java.util.List;
  */
 public class GetKeyInRange {
     public List<Integer> getRange(TreeNode root, int min, int max) {
-
+        List<Integer> list = new ArrayList<>();
+        getRange(root, min, max, list);
+        return list;
     }
 
-    public List<Integer> getRange(TreeNode root, int min, int max, List<Integer> list) {
+    public void getRange(TreeNode root, int min, int max, List<Integer> list) {
         if (root == null) {
             return;
         }

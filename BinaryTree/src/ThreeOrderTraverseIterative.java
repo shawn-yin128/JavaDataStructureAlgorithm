@@ -1,14 +1,11 @@
-import java.util.ArrayDeque;
-import java.util.Deque;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 public class ThreeOrderTraverseIterative {
     public List<Integer> preOrder(TreeNode root) { // use a stack
         if (root == null) {
-            return new LinkedList<Integer>();
+            return new ArrayList<>();
         }
-        List<Integer> resList = new LinkedList<>();
+        List<Integer> resList = new ArrayList<>();
         Deque<TreeNode> stack = new ArrayDeque<>();
         stack.offerFirst(root);
         while (!stack.isEmpty()) {
@@ -25,7 +22,7 @@ public class ThreeOrderTraverseIterative {
     } /* time complexity: O(n) space complexity: O(n+height) if only print it will be O(height) since max is the longest all right node */
 
     public List<Integer> inOrder(TreeNode root) {
-        List<Integer> resList = new LinkedList<>();
+        List<Integer> resList = new ArrayList<>();
         Deque<TreeNode> stack = new ArrayDeque<>();
         TreeNode cur = root;
         while (cur != null || !stack.isEmpty()) {
