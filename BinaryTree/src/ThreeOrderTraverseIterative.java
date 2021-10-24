@@ -1,3 +1,5 @@
+import java.util.ArrayDeque;
+import java.util.Deque;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -6,8 +8,8 @@ public class ThreeOrderTraverseIterative {
         if (root == null) {
             return new LinkedList<Integer>();
         }
-        List<Integer> resList = new LinkedList<Integer>();
-        Deque<TreeNode> stack = new LinkedList<TreeNode>();
+        List<Integer> resList = new LinkedList<>();
+        Deque<TreeNode> stack = new ArrayDeque<>();
         stack.offerFirst(root);
         while (!stack.isEmpty()) {
             TreeNode cur = stack.pollFirst();
@@ -24,7 +26,7 @@ public class ThreeOrderTraverseIterative {
 
     public List<Integer> inOrder(TreeNode root) {
         List<Integer> resList = new LinkedList<>();
-        Deque<TreeNode> stack = new LinkedList<>();
+        Deque<TreeNode> stack = new ArrayDeque<>();
         TreeNode cur = root;
         while (cur != null || !stack.isEmpty()) {
             if (cur != null) {
