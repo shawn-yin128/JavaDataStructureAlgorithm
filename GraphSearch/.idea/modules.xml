@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BestFirstSearch/BestFirstSearch.iml" filepath="$PROJECT_DIR$/BestFirstSearch/BestFirstSearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BreadthFirstSearch/BreadthFirstSearch.iml" filepath="$PROJECT_DIR$/BreadthFirstSearch/BreadthFirstSearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DepthFirstSearch/DepthFirstSearch.iml" filepath="$PROJECT_DIR$/DepthFirstSearch/DepthFirstSearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GraphSearch.iml" filepath="$PROJECT_DIR$/GraphSearch.iml" />
+    </modules>
+  </component>
+</project>
