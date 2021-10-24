@@ -1,9 +1,9 @@
 import java.util.ArrayDeque;
-import java.util.Deque;
+import java.util.Queue;
 
 public class StackByTwoQueues {
-    private Deque<Integer> q1;
-    private Deque<Integer> q2;
+    private Queue<Integer> q1;
+    private Queue<Integer> q2;
 
     public StackByTwoQueues() {
         q1 = new ArrayDeque<>();
@@ -11,18 +11,18 @@ public class StackByTwoQueues {
     }
 
     public void push(int value) {
-        q1.offerLast(value);
+        q1.offer(value);
     }
 
     public Integer pop() {
-        Integer prev = q1.pollFirst();
-        Integer cur = q1.pollFirst();
+        Integer prev = q1.poll();
+        Integer cur = q1.poll();
         while (cur != null) {
-            q2.offerLast(prev);
+            q2.offer(prev);
             prev = cur;
-            cur = q1.pollFirst();
+            cur = q1.poll();
         }
-        Deque<Integer> tmp = q1;
+        Queue<Integer> tmp = q1;
         q1 = q2;
         q2 = tmp;
         return prev;
@@ -31,7 +31,7 @@ public class StackByTwoQueues {
     public Integer top() {
         Integer ret = pop(); // perform as pollLast() get what the stack will return next
         if (ret != null) {
-            q1.offerLast(ret);
+            q1.offer(ret);
         }
         return ret;
     }
