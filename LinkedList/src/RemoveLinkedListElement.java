@@ -1,4 +1,4 @@
-public class RemoveLinkedListElement {1
+public class RemoveLinkedListElement {
     public ListNode removeElement(ListNode head, int target) {
         if (head == null) {
             return head;
