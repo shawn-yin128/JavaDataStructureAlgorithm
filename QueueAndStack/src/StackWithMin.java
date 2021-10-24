@@ -1,13 +1,13 @@
+import java.util.ArrayDeque;
 import java.util.Deque;
-import java.util.LinkedList;
 
 public class StackWithMin {
     private Deque<Integer> stack;
     private Deque<Integer> minStack;
 
     public StackWithMin() {
-        stack = new LinkedList<Integer>();
-        minStack = new LinkedList<Integer>();
+        stack = new ArrayDeque<>();
+        minStack = new ArrayDeque<>();
     }
 
     public int min() {

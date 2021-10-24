@@ -1,13 +1,13 @@
+import java.util.ArrayDeque;
 import java.util.Deque;
-import java.util.LinkedList;
 
 public class QueueByTwoStacks {
     private Deque<Integer> in;
     private Deque<Integer> out;
 
     public QueueByTwoStacks() {
-        in = new LinkedList<Integer>();
-        out = new LinkedList<Integer>();
+        in = new ArrayDeque<>();
+        out = new ArrayDeque<>();
     }
 
     public Integer poll() {

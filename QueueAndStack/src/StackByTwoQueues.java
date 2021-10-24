@@ -1,13 +1,13 @@
+import java.util.ArrayDeque;
 import java.util.Deque;
-import java.util.LinkedList;
 
 public class StackByTwoQueues {
     private Deque<Integer> q1;
     private Deque<Integer> q2;
 
     public StackByTwoQueues() {
-        q1 = new LinkedList<Integer>();
-        q1 = new LinkedList<Integer>();
+        q1 = new ArrayDeque<>();
+        q1 = new ArrayDeque<>();
     }
 
     public void push(int value) {

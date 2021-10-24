@@ -1,5 +1,5 @@
+import java.util.ArrayDeque;
 import java.util.Deque;
-import java.util.LinkedList;
 
 public class DequeByThreeStacks {
     private Deque<Integer> left;
@@ -7,9 +7,9 @@ public class DequeByThreeStacks {
     private Deque<Integer> buffer;
 
     public DequeByThreeStacks() {
-        left = new LinkedList<>();
-        right = new LinkedList<>();
-        buffer = new LinkedList<>();
+        left = new ArrayDeque<>();
+        right = new ArrayDeque<>();
+        buffer = new ArrayDeque<>();
     }
 
     public void offerFirst(int value) {
