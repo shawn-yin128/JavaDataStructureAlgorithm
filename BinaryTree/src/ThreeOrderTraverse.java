@@ -11,7 +11,7 @@ public class ThreeOrderTraverse {
         if (root == null) {
             return;
         }
-        System.out.println(root.value);
+        System.out.println(root.key);
         preOrder(root.left);
         preOrder(root.right);
     }
@@ -21,7 +21,7 @@ public class ThreeOrderTraverse {
             return;
         }
         inOrder(root.left);
-        System.out.println(root.value);
+        System.out.println(root.key);
         inOrder(root.right);
     }
 
@@ -31,7 +31,7 @@ public class ThreeOrderTraverse {
         }
         postOrder(root.left);
         postOrder(root.right);
-        System.out.println(root.value);
+        System.out.println(root.key);
     }
 }
 
