@@ -29,3 +29,8 @@ public class LevelTraverseBinaryTree {
         return result;
     }
 }
+
+/**
+ * time complexity: O(n)
+ * space complexity: O(n)
+ */
