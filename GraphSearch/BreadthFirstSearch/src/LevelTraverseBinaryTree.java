@@ -4,6 +4,12 @@ import java.util.List;
 import java.util.Queue;
 
 public class LevelTraverseBinaryTree {
+    public static class TreeNode {
+        public int key;
+        public TreeNode left;
+        public TreeNode right;
+    }
+
     public List<List<Integer>> levelOrder(TreeNode root) {
         List<List<Integer>> result = new ArrayList<List<Integer>>();
         if (root == null) {
