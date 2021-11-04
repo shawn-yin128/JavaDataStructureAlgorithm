@@ -52,6 +52,6 @@ public class TopKFrequentWords {
 }
 
 /**
- * time complexity:
- * space complexity:
+ * time complexity: O(n + nlogk)
+ * space complexity: O(n)
  */
