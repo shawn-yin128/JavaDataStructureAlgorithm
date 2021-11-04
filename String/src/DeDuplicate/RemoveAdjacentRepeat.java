@@ -9,7 +9,7 @@ public class RemoveAdjacentRepeat {
         int slow = 0;
         int fast = 0;
         while (fast < array.length) {
-            if (fast == 0 || array[fast] != array[slow - 1]) {
+            if (slow == 0 || array[fast] != array[slow - 1]) {
                 array[slow++] = array[fast++];
             } else {
                 fast++;
