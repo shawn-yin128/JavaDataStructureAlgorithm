@@ -11,7 +11,23 @@ public class RemoveAdjacentRepeatly {
         int slow = 0;
         int fast = 0;
         while (fast < array.length) {
-            if (slow == 0 || )
+            if (slow == 0 || array[fast] != array[slow - 1]) {
+                array[slow++] = array[fast++];
+            } else if (array[fast] == array[slow - 1]) {
+                while (fast < array.length && array[fast] == array[slow - 1]) {
+                    fast++;
+                }
+                slow--;
+            }
         }
+        if (slow == 0) { // maybe a case that all elements have duplicate
+            return new String();
+        }
+        return new String(array, 0, slow);
     }
 }
+
+/**
+ * time complexity: O(n)
+ * space complexity: O(n)
+ */
