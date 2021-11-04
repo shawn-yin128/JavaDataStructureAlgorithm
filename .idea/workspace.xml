@@ -4,31 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a219ea1-1b9e-4c0c-865e-12993fb06daf" name="Changes" comment="reorder problems">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearch/src/Classical/ClassicalBS.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearch/src/ExactSearchProblem/ClassicalBS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearch/src/Classical/MatrixBS.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearch/src/ExactSearchProblem/MatrixBS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearch/src/Classical/SearchInUnknownSizeDict.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearch/src/ExactSearchProblem/SearchInUnknownSizeDict.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinaryTree/src/BasicOperation/GetHeight.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinaryTree/src/TreeBasicOperation/GetHeight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BitOperation/src/MissingNumberBitOperation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphSearch/src/DepthFirstSearch/AllPermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/GraphSearch/src/DepthFirstSearch/Permutation/AllPermutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphSearch/src/DepthFirstSearch/AllSubset.java" beforeDir="false" afterPath="$PROJECT_DIR$/GraphSearch/src/DepthFirstSearch/Subset/AllSubset.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphSearch/src/DepthFirstSearch/CoinsCombination.java" beforeDir="false" afterPath="$PROJECT_DIR$/GraphSearch/src/DepthFirstSearch/Coins/CoinsCombination.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphSearch/src/DepthFirstSearch/ParenthesesPermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/GraphSearch/src/DepthFirstSearch/Parentheses/ParenthesesPermutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HashMap/src/CommonNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/HashMap/src/UseCase/CommonNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HashMap/src/DemoHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/HashMap/src/DemoHashMap/DemoHashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Heap/src/DemoMinHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/Heap/src/DemoHeap/DemoMinHeap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Heap/src/KSmallestUnsorted.java" beforeDir="false" afterPath="$PROJECT_DIR$/Heap/src/KSmallOrLarge/KSmallestUnsorted.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/src/Revise/InsertInSortedLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/ListOperation/Insert/InsertInSortedLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/src/Revise/PartitionLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/ListOperation/Revise/PartitionLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/src/Revise/RemoveLinkedListElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/ListOperation/Delete/RemoveLinkedListElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/src/Revise/ReverseLinkedListIterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/ListOperation/Revise/ReverseLinkedListIterative.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/src/Revise/ReverseLinkedListRecursive.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/ListOperation/Revise/ReverseLinkedListRecursive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/src/SpecialCase/CheckCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/SpecialList/CheckCycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/src/SpecialCase/CheckPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/SpecialList/CheckPalindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/String/src/MissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/BitOperation/src/BitOperationLogic/MissingNumberBitOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/String/src/TopKFrequentWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/HashMap/src/UseCase/TopKFrequentWords.java" afterDir="false" />
-    </list>
+    <list default="true" id="9a219ea1-1b9e-4c0c-865e-12993fb06daf" name="Changes" comment="update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,7 +86,7 @@
       <workItem from="1633402827716" duration="2007000" />
       <workItem from="1633404901647" duration="17000" />
       <workItem from="1635053556117" duration="117000" />
-      <workItem from="1636007293087" duration="3942000" />
+      <workItem from="1636007293087" duration="4323000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1636007434859</created>
@@ -182,7 +158,21 @@
       <option name="project" value="LOCAL" />
       <updated>1636010087883</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="reorder problems">
+      <created>1636011476362</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1636011476362</updated>
+    </task>
+    <task id="LOCAL-00012" summary="update">
+      <created>1636011492440</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1636011492440</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,9 +192,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="update" />
     <MESSAGE value="reorder binary search problem" />
     <MESSAGE value="reorder problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="reorder problems" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>
