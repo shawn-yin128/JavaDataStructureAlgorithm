@@ -1,4 +1,14 @@
+package Revise;
+
 public class PartitionLinkedList {
+    private class ListNode {
+        int value;
+        ListNode next;
+        public ListNode(int value) {
+            this.value = value;
+            next = null;
+        }
+    }
     public ListNode partition(ListNode head, int target) {
         if (head == null || head.next == null) {
             return head;

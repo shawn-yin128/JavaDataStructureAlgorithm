@@ -1,8 +1,18 @@
+package Sorting;
+
 /**
  * given a linked list N1 -> N2 -> N3 -> ... -> Nn
  * reorder as N -> Nn -> N2 -> Nn-1 -> N3 -> Nn-2 -> ...
  */
 public class ReorderLinkedList {
+    private class ListNode {
+        int value;
+        ListNode next;
+        public ListNode(int value) {
+            this.value = value;
+            next = null;
+        }
+    }
     public ListNode reorder(ListNode head) {
         if (head == null ||head.next == null) {
             return head;

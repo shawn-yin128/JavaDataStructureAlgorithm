@@ -1,3 +1,5 @@
+package QuickLike;
+
 /**
  * input an array, move all zero to right side
  */

@@ -1,3 +1,5 @@
+package Simple;
+
 /**
  * input int n as the nth position's value
  * if n <= 0 return 0

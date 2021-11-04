@@ -1,4 +1,14 @@
+package Sorting;
+
 public class MiddlePoint {
+    private class ListNode {
+        int value;
+        ListNode next;
+        public ListNode(int value) {
+            this.value = value;
+            next = null;
+        }
+    }
     public ListNode middlePoint(ListNode head) {
         if (head == null || head.next == null) {
             return head;

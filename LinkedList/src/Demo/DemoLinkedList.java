@@ -1,4 +1,14 @@
+package Demo;
+
 public class DemoLinkedList {
+    private class ListNode {
+        int value;
+        ListNode next;
+        public ListNode(int value) {
+            this.value = value;
+            next = null;
+        }
+    }
     public int length(ListNode head) {
         int length = 0;
         while (head != null) {
@@ -34,7 +44,7 @@ public class DemoLinkedList {
         // if head is null
         if (head == null) {
             return head;
-        } else if (head.value = value) { // if remove head
+        } else if (head.value == value) { // if remove head
             return head.next;
         }
         ListNode cur = head;
@@ -42,7 +52,7 @@ public class DemoLinkedList {
             cur = cur.next;
         }
         if (cur.next != null) {
-            curr.next = cur.next.next;
+            cur.next = cur.next.next;
         }
         return head;
     }

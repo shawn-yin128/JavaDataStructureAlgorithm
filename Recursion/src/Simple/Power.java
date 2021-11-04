@@ -1,3 +1,5 @@
+package Simple;
+
 /**
  * input a number and a power
  *  output int result

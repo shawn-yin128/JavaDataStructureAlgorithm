@@ -1,4 +1,14 @@
+package SpecialCase;
+
 public class CheckPalindrome {
+    private class ListNode {
+        int value;
+        ListNode next;
+        public ListNode(int value) {
+            this.value = value;
+            next = null;
+        }
+    }
     public boolean isPalindrome(ListNode head) {
         if (head == null || head.next == null) {
             return true;

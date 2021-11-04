@@ -1,4 +1,14 @@
+package Sorting;
+
 public class MergeSortLinkedList {
+    private class ListNode {
+        int value;
+        ListNode next;
+        public ListNode(int value) {
+            this.value = value;
+            next = null;
+        }
+    }
     public ListNode mergeSort(ListNode head) {
         if (head == null || head.next == null) {
             return head;
@@ -14,7 +24,7 @@ public class MergeSortLinkedList {
         if (head == null || head.next == null) {
             return head;
         }
-        ListNode slow = haed;
+        ListNode slow = head;
         ListNode fast = head;
         while (fast.next != null && fast.next.next != null) {
             slow = slow.next;

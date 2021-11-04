@@ -1,4 +1,14 @@
+package Revise;
+
 public class ReverseLinkedListRecursive {
+    private class ListNode {
+        int value;
+        ListNode next;
+        public ListNode(int value) {
+            this.value = value;
+            next = null;
+        }
+    }
     public ListNode reverseLinkedListRecursive(ListNode head) {
         if (head == null || head.next == null) {
             return head;

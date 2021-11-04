@@ -1,9 +1,19 @@
+package Sorting;
+
 public class MergeSortedLinkedList {
+    private class ListNode {
+        int value;
+        ListNode next;
+        public ListNode(int value) {
+            this.value = value;
+            next = null;
+        }
+    }
     public ListNode mergeSortedLinkedList(ListNode headOne, ListNode headTwo) {
         if (headOne == null && headTwo == null) {
             return headOne;
         }
-        ListNode dummyHead = ListNode(0);
+        ListNode dummyHead = new ListNode(0);
         ListNode curr = dummyHead;
         while (headOne != null && headTwo != null) {
             if (headOne.value < headTwo.value) {
@@ -20,7 +30,7 @@ public class MergeSortedLinkedList {
             curr.next = headOne;
         }
         if (headTwo != null) {
-           curr.next = headTwo;
+            curr.next = headTwo;
         }
         return dummyHead.next;
     }

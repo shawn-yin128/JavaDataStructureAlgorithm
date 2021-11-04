@@ -1,7 +1,17 @@
+package Sorting;
+
 public class AddTwoNumbers {
+    private class ListNode {
+        int value;
+        ListNode next;
+        public ListNode(int value) {
+            this.value = value;
+            next = null;
+        }
+    }
     public ListNode addTwoNumbers(ListNode left, ListNode right) {
         if (left == null && right == null) {
-            return head;
+            return null;
         }
         ListNode rLeft = reverse(left);
         ListNode rRight = reverse(right);

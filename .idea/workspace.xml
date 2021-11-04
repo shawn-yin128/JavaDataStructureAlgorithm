@@ -4,16 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a219ea1-1b9e-4c0c-865e-12993fb06daf" name="Changes" comment="update">
+    <list default="true" id="9a219ea1-1b9e-4c0c-865e-12993fb06daf" name="Changes" comment="reorder binary search problem">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearch/src/ClassicalBS.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearch/src/Classical/ClassicalBS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearch/src/ClosestInSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearch/src/ClosestProblem/ClosestInSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearch/src/FirstOccurrence.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearch/src/OccurenceProblem/FirstOccurrence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearch/src/KClosest.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearch/src/ClosestProblem/KClosest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearch/src/LastOccurrence.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearch/src/OccurenceProblem/LastOccurrence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearch/src/MatrixBS.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearch/src/Classical/MatrixBS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearch/src/SearchInUnknownSizeDict.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearch/src/Classical/SearchInUnknownSizeDict.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearch/src/SmallestLargerThanTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearch/src/ClosestProblem/SmallestLargerThanTarget.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/src/AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/Sorting/AddTwoNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/src/CheckCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/SpecialCase/CheckCycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/src/CheckPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/SpecialCase/CheckPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/src/DemoLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/Demo/DemoLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/src/InsertInSortedLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/Revise/InsertInSortedLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/src/MergeSortLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/Sorting/MergeSortLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/src/MergeSortedLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/Sorting/MergeSortedLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/src/MiddlePoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/Sorting/MiddlePoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/src/PartitionLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/Revise/PartitionLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/src/RemoveLinkedListElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/Revise/RemoveLinkedListElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/src/ReorderLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/Sorting/ReorderLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/src/ReverseLinkedListIterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/Revise/ReverseLinkedListIterative.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/src/ReverseLinkedListRecursive.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/Revise/ReverseLinkedListRecursive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recursion/src/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/Recursion/src/Simple/Fibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recursion/src/Power.java" beforeDir="false" afterPath="$PROJECT_DIR$/Recursion/src/Simple/Power.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sorting/src/Block.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sorting/src/QuickLike/Block.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sorting/src/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sorting/src/MergeLike/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sorting/src/MoveZero.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sorting/src/QuickLike/MoveZero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sorting/src/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sorting/src/QuickLike/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sorting/src/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sorting/src/Basic/SelectionSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +108,7 @@
       <workItem from="1633402827716" duration="2007000" />
       <workItem from="1633404901647" duration="17000" />
       <workItem from="1635053556117" duration="117000" />
-      <workItem from="1636007293087" duration="1540000" />
+      <workItem from="1636007293087" duration="2178000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1636007434859</created>
@@ -140,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636008600407</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="reorder binary search problem">
+      <created>1636008864449</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1636008864449</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +180,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="reorder binary search problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="reorder binary search problem" />
   </component>
 </project>

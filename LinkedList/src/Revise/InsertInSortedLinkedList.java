@@ -1,4 +1,14 @@
+package Revise;
+
 public class InsertInSortedLinkedList {
+    private class ListNode {
+        int value;
+        ListNode next;
+        public ListNode(int value) {
+            this.value = value;
+            next = null;
+        }
+    }
     public ListNode insertInSortedLinkedList(ListNode head, int value) {
         ListNode newNode = new ListNode(value);
         if (head == null || head.value >= value) { // if null linked list or add at head directly

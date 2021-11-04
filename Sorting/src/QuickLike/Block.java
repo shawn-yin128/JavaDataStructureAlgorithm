@@ -1,3 +1,5 @@
+package QuickLike;
+
 /**
  * input an array that contains only -1, 1, 0 in disorder, put them into -1, 0, 1 order
  */

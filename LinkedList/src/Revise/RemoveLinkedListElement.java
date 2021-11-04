@@ -1,4 +1,14 @@
+package Revise;
+
 public class RemoveLinkedListElement {
+    private class ListNode {
+        int value;
+        ListNode next;
+        public ListNode(int value) {
+            this.value = value;
+            next = null;
+        }
+    }
     public ListNode removeElement(ListNode head, int target) {
         if (head == null) {
             return head;

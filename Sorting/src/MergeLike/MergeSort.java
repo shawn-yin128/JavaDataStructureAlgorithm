@@ -1,3 +1,5 @@
+package MergeLike;
+
 public class MergeSort {
     public static void main(String[] args) {
         int[] array = new int[] {3, 2, 1, 9, 6, 8};
