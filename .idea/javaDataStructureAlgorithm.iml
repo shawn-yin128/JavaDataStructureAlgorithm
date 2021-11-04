@@ -10,6 +10,7 @@
       <sourceFolder url="file://$MODULE_DIR$/GraphSearch/BestFirstSearch/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GraphSearch/BreadthFirstSearch/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GraphSearch/DepthFirstSearch/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GraphSearch/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/HashMap/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Heap/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LinkedList/src" isTestSource="false" />

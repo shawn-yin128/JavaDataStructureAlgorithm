@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a219ea1-1b9e-4c0c-865e-12993fb06daf" name="Changes" comment="reorder problems">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinaryTree/src/CheckBalanced.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinaryTree/src/SpecialTree/CheckBalanced.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinaryTree/src/CheckBinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinaryTree/src/BST/CheckBinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinaryTree/src/DemoBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinaryTree/src/BST/DemoBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinaryTree/src/GetHeight.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinaryTree/src/BasicOperation/GetHeight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinaryTree/src/GetKeyInRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinaryTree/src/BST/GetKeyInRange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinaryTree/src/SymmetricBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinaryTree/src/SpecialTree/SymmetricBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinaryTree/src/ThreeOrderTraverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinaryTree/src/Traverse/ThreeOrderTraverse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinaryTree/src/ThreeOrderTraverseIterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinaryTree/src/Traverse/ThreeOrderTraverseIterative.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinaryTree/src/TreeNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinaryTree/src/TweakedBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinaryTree/src/SpecialTree/TweakedBinaryTree.java" afterDir="false" />
-    </list>
+    <list default="true" id="9a219ea1-1b9e-4c0c-865e-12993fb06daf" name="Changes" comment="reorder problems" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,7 +86,7 @@
       <workItem from="1633402827716" duration="2007000" />
       <workItem from="1633404901647" duration="17000" />
       <workItem from="1635053556117" duration="117000" />
-      <workItem from="1636007293087" duration="2654000" />
+      <workItem from="1636007293087" duration="2693000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1636007434859</created>
@@ -156,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636009582012</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="reorder problems">
+      <created>1636009978725</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1636009978725</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
