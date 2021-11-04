@@ -1,8 +1,13 @@
+package Classical;
+
 /**
  * input unknown size dict, target
  * find target or return -1
  */
 public class SearchInUnknownSizeDict {
+    private abstract static class Dictionary {
+        public abstract Integer get(int index);
+    }
     public static int searchInUnknownSizeDict(Dictionary dict, int target) {
         if (dict == null) {
             return -1;

@@ -1,3 +1,5 @@
+package Classical;
+
 /**
  * input sorted array, and int target
  * output the target's index

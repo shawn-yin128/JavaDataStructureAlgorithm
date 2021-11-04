@@ -1,14 +1,16 @@
+package OccurenceProblem;
+
 /**
  * input sorted array and target
- * find the index of the first occurrence of target
+ * find the index of the last occurrence of target
  */
-public class FirstOccurrence {
+public class LastOccurrence {
     public static void main(String[] args) {
         int[] array = new int[] {1, 2, 3, 4, 4, 4, 5};
-        int res = firstOccur(array, 4);
+        int res = lastOccur(array, 4);
         System.out.println(res);
     }
-    public static int firstOccur(int[] array, int target) {
+    public static int lastOccur(int[] array, int target) {
         if (array == null || array.length == 0) {
             return -1;
         }
@@ -21,13 +23,13 @@ public class FirstOccurrence {
             } else if (array[mid] < target) {
                 left = mid + 1;
             } else {
-                right = mid;
+                left = mid;
             }
         }
-        if (array[left] == target) {
-            return left;
-        } else if (array[right] == target) {
+        if (array[right] == target) {
             return right;
+        } else if (array[left] == target) {
+            return left;
         } else {
             return -1;
         }

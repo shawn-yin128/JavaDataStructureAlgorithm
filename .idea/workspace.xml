@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a219ea1-1b9e-4c0c-865e-12993fb06daf" name="Changes" comment="update" />
+    <list default="true" id="9a219ea1-1b9e-4c0c-865e-12993fb06daf" name="Changes" comment="update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinarySearch/src/ClassicalBS.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearch/src/Classical/ClassicalBS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinarySearch/src/ClosestInSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearch/src/ClosestProblem/ClosestInSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinarySearch/src/FirstOccurrence.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearch/src/OccurenceProblem/FirstOccurrence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinarySearch/src/KClosest.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearch/src/ClosestProblem/KClosest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinarySearch/src/LastOccurrence.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearch/src/OccurenceProblem/LastOccurrence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinarySearch/src/MatrixBS.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearch/src/Classical/MatrixBS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinarySearch/src/SearchInUnknownSizeDict.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearch/src/Classical/SearchInUnknownSizeDict.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinarySearch/src/SmallestLargerThanTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearch/src/ClosestProblem/SmallestLargerThanTarget.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +40,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -54,15 +65,15 @@
   </component>
   <component name="RunManager" selected="Application.ClosestInSortedArray">
     <configuration name="ClassicalBS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ClassicalBS" />
-      <module name="BinarySearch" />
+      <option name="MAIN_CLASS_NAME" value="Classical.ClassicalBS" />
+      <module name="javaDataStructureAlgorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="ClosestInSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ClosestInSortedArray" />
-      <module name="BinarySearch" />
+      <option name="MAIN_CLASS_NAME" value="ClosestProblem.ClosestInSortedArray" />
+      <module name="javaDataStructureAlgorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -85,7 +96,7 @@
       <workItem from="1633402827716" duration="2007000" />
       <workItem from="1633404901647" duration="17000" />
       <workItem from="1635053556117" duration="117000" />
-      <workItem from="1636007293087" duration="1286000" />
+      <workItem from="1636007293087" duration="1540000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1636007434859</created>
@@ -122,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636008491995</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update">
+      <created>1636008600407</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1636008600407</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
