@@ -1,7 +1,18 @@
+package SpecialTree;
+
 /**
  * check whether a tree is identical with allowed tweak (swap of children of one node)
  */
 public class TweakedBinaryTree {
+    public static class TreeNode {
+        public int key;
+        public TreeNode left;
+        public TreeNode right;
+        public TreeNode(int value) {
+            key = value;
+        }
+    }
+
     public boolean isTweaked(TreeNode one, TreeNode two) {
         if (one == null && two == null) {
             return true;

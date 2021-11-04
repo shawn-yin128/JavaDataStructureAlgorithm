@@ -1,4 +1,15 @@
+package BST;
+
 public class DemoBST {
+    public static class TreeNode {
+        public int key;
+        public TreeNode left;
+        public TreeNode right;
+        public TreeNode(int value) {
+            key = value;
+        }
+    }
+
     public TreeNode search(TreeNode root, int key) {
         if (root == null || root.key == key) {
             return root;

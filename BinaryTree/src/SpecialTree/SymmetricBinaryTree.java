@@ -1,4 +1,15 @@
+package SpecialTree;
+
 public class SymmetricBinaryTree {
+    public static class TreeNode {
+        public int key;
+        public TreeNode left;
+        public TreeNode right;
+        public TreeNode(int value) {
+            key = value;
+        }
+    }
+
     public boolean isSymmetric(TreeNode root) {
         if (root == null) {
             return true;

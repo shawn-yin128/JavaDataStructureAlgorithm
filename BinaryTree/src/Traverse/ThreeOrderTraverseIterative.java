@@ -1,6 +1,14 @@
+package Traverse;
+
 import java.util.*;
 
 public class ThreeOrderTraverseIterative {
+    public static class TreeNode {
+        public int key;
+        public TreeNode left;
+        public TreeNode right;
+    }
+
     public List<Integer> preOrder(TreeNode root) { // use a stack
         if (root == null) {
             return new ArrayList<>();

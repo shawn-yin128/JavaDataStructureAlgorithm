@@ -1,12 +1,12 @@
-/**
- * class TreeNode {
- *     public int value;
- *     public TreeNode left;
- *     public TreeNode right;
- * }
- */
+package Traverse;
 
 public class ThreeOrderTraverse {
+    public static class TreeNode {
+        public int key;
+        public TreeNode left;
+        public TreeNode right;
+    }
+
     public void preOrder(TreeNode root) {
         if (root == null) {
             return;

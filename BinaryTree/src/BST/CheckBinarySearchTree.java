@@ -1,4 +1,12 @@
+package BST;
+
 public class CheckBinarySearchTree {
+    public static class TreeNode {
+        public int key;
+        public TreeNode left;
+        public TreeNode right;
+    }
+
     public boolean isBST(TreeNode root) {
         if (root == null) {
             return true;

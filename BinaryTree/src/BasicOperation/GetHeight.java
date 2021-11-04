@@ -1,4 +1,15 @@
+package BasicOperation;
+
 public class GetHeight {
+    public static class TreeNode {
+        public int key;
+        public TreeNode left;
+        public TreeNode right;
+        public TreeNode(int value) {
+            key = value;
+        }
+    }
+
     public int getHeight(TreeNode root) {
         if (root == null) {
             return 0;
