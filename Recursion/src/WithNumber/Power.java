@@ -1,4 +1,4 @@
-package Simple;
+package WithNumber;
 
 /**
  * input a number and a power

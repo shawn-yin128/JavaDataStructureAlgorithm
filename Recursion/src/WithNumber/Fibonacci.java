@@ -1,4 +1,4 @@
-package Simple;
+package WithNumber;
 
 /**
  * input int n as the nth position's value
