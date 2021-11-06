@@ -42,7 +42,7 @@ public class DemoHashMap<K, V> {
         this.loadFactor = loadFactor;
     }
 
-    // key method
+    // key private method
     private int hash(K key) {
         if (key == null) {
             return 0;
@@ -77,49 +77,7 @@ public class DemoHashMap<K, V> {
         }
     }
 
-    public int size() {
-        return size;
-    }
-
-    public boolean isEmpty() {
-        return size == 0;
-    }
-
-    public void clear() {
-        Arrays.fill(this.array, null);
-        size = 0;
-    }
-
-    public boolean containsValue(V value) {
-        if (isEmpty()) {
-            return false;
-        }
-        for (Entry<K, V> entry: array) {
-            while (entry != null) {
-                if (equalsValue(entry.getValue(), value)) {
-                    return true;
-                }
-                entry = entry.next;
-            }
-        }
-        return false;
-    }
-
-    public boolean containsKey(K key) {
-        if (isEmpty()) {
-            return false;
-        }
-        int index = getIndex(key);
-        Entry<K, V> entry = array[index];
-        while (entry != null) {
-            if (equalsKey(entry.getKey(), key)) {
-                return true;
-            }
-            entry = entry.next;
-        }
-        return false;
-    }
-
+    // key API
     public V put(K key, V value) {
         int index = getIndex(key);
         Entry<K, V> entry = array[index];
@@ -141,7 +99,6 @@ public class DemoHashMap<K, V> {
         }
         return null;
     }
-
     public V remove(K key) {
         int index = getIndex(key);
         Entry<K, V> entry = array[index];
@@ -161,7 +118,6 @@ public class DemoHashMap<K, V> {
         }
         return null;
     }
-
     public V get(K key) {
         int index = getIndex(key);
         Entry<K, V> entry = array[index];
@@ -172,5 +128,43 @@ public class DemoHashMap<K, V> {
             entry = entry.next;
         }
         return null;
+    }
+    public int size() {
+        return size;
+    }
+    public boolean isEmpty() {
+        return size == 0;
+    }
+    public void clear() {
+        Arrays.fill(this.array, null);
+        size = 0;
+    }
+    public boolean containsValue(V value) {
+        if (isEmpty()) {
+            return false;
+        }
+        for (Entry<K, V> entry: array) {
+            while (entry != null) {
+                if (equalsValue(entry.getValue(), value)) {
+                    return true;
+                }
+                entry = entry.next;
+            }
+        }
+        return false;
+    }
+    public boolean containsKey(K key) {
+        if (isEmpty()) {
+            return false;
+        }
+        int index = getIndex(key);
+        Entry<K, V> entry = array[index];
+        while (entry != null) {
+            if (equalsKey(entry.getKey(), key)) {
+                return true;
+            }
+            entry = entry.next;
+        }
+        return false;
     }
 }
