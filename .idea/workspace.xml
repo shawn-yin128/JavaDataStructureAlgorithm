@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a219ea1-1b9e-4c0c-865e-12993fb06daf" name="Changes" comment="update" />
+    <list default="true" id="9a219ea1-1b9e-4c0c-865e-12993fb06daf" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/OOD/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOD/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOD/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOD/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOD/OOD.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String/src/Replace/StringReplace.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +42,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="JAVA" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Recursion" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/DynamicProgramming" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -90,6 +97,7 @@
       <workItem from="1636074944455" duration="250000" />
       <workItem from="1636075213379" duration="47000" />
       <workItem from="1636075335240" duration="47000" />
+      <workItem from="1636251826252" duration="215000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1636007434859</created>
