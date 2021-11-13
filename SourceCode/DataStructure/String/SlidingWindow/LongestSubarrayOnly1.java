@@ -27,3 +27,8 @@ public class LongestSubarrayOnly1 {
         return longest;
     }
 }
+
+/**
+ * time complexity: O(n)
+ * space complexity: O(1)
+ */
