@@ -1,4 +1,4 @@
-package TreeBasicOperation;
+package Operation;
 
 public class GetHeight {
     public static class TreeNode {
