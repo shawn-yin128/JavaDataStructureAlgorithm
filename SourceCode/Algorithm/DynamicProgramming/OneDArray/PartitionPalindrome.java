@@ -33,6 +33,8 @@ public class PartitionPalindrome {
             if (array[left] != array[right]) {
                 return false;
             }
+            left++;
+            right--;
         }
         return true;
     }
