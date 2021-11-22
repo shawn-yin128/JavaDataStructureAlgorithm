@@ -36,3 +36,8 @@ public class SpiralTraverseMatrixI {
         helper(matrix, offset + 1, size - 2, result);
     }
 }
+
+/**
+ * time complexity: O(n^2)
+ * space complexity: O(n)
+ */

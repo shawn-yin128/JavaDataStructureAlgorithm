@@ -51,3 +51,8 @@ public class SpiralTraverseMatrixII {
         helper(matrix, offset + 1, row - 2, col - 2, result);
     }
 }
+
+/**
+ * time complexity: O(n*m)
+ * space complexity: O(n)
+ */
