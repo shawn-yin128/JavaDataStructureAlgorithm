@@ -16,7 +16,7 @@ public class ArrayDeduplicateI {
         int slow = 0;
         int fast = 0;
         while (fast < array.length) {
-            if (fast == 0 || array[fast] != array[slow - 1]) {
+            if (slow == 0 || array[fast] != array[slow - 1]) { // use slow == 0 is better because slow is how many elelments in current output
                 array[slow++] = array[fast++];
             } else {
                 fast++;
