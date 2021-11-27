@@ -1,4 +1,4 @@
-package DataStructure.HashMap.Map;
+package DataStructure.HashMap.Count;
 
 import java.util.Comparator;
 import java.util.HashMap;

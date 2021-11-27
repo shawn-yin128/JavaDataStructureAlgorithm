@@ -1,4 +1,4 @@
-package DataStructure.HashMap.Map;
+package DataStructure.HashMap.Count;
 
 import java.util.ArrayList;
 import java.util.HashMap;
