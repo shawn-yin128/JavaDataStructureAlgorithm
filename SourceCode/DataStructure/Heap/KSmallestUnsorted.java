@@ -1,4 +1,4 @@
-package DataStructure.Heap.KSmallestOrLargest;
+package DataStructure.Heap;
 
 import java.util.Arrays;
 import java.util.Comparator;

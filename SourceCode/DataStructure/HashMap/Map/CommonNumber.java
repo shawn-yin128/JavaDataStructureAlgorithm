@@ -1,4 +1,4 @@
-package DataStructure.HashMap.UseCase;
+package DataStructure.HashMap.Map;
 
 import java.util.ArrayList;
 import java.util.HashMap;
