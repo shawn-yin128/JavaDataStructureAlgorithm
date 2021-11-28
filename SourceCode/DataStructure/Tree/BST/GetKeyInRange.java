@@ -1,4 +1,4 @@
-package DataStructure.Tree.BST.Advanced;
+package DataStructure.Tree.BST;
 
 import java.util.ArrayList;
 import java.util.List;
