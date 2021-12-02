@@ -1,12 +1,14 @@
-package Algorithm.Recursion.WithTree;
+package Algorithm.Recursion.WithTree.LCA;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 /**
- * Given two nodes in a K-nary tree, find their lowest common ancestor.
+ * Given M nodes in a K-nary tree, find their lowest common ancestor.
  */
-public class LowestCommonAncestorV {
+public class LowestCommonAncestorVI {
     public static class KnaryTreeNode {
         int key;
         List<KnaryTreeNode> children;
@@ -17,23 +19,21 @@ public class LowestCommonAncestorV {
         }
     }
 
-    public KnaryTreeNode LCA(KnaryTreeNode root, KnaryTreeNode one, KnaryTreeNode two) {
-        if (root == null) {
-            return null;
-        }
-        return helper(root, one, two);
+    public KnaryTreeNode LCA(KnaryTreeNode root, List<KnaryTreeNode> list) {
+        Set<KnaryTreeNode> set = new HashSet<>(list);
+        return helper(root, set);
     }
 
-    private KnaryTreeNode helper(KnaryTreeNode root, KnaryTreeNode one, KnaryTreeNode two) {
+    private KnaryTreeNode helper(KnaryTreeNode root, Set<KnaryTreeNode> set) {
         if (root == null) {
             return null;
         }
-        if (root == one || root == two) {
+        if (set.contains(root)) {
             return root;
         }
         KnaryTreeNode result = null;
         for (KnaryTreeNode node : root.children) {
-            KnaryTreeNode lca = helper(node, one, two);
+            KnaryTreeNode lca = helper(node, set);
             if (lca == null) {
                 continue;
             } else {
@@ -47,8 +47,3 @@ public class LowestCommonAncestorV {
         return result;
     }
 }
-
-/**
- * time complexity: O(n)
- * space complexity: O(height)
- */

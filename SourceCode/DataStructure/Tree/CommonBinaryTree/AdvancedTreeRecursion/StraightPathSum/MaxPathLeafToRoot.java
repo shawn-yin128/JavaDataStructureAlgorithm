@@ -1,4 +1,4 @@
-package DataStructure.Tree.CommonBinaryTree.AdvancedTreeRecursion;
+package DataStructure.Tree.CommonBinaryTree.AdvancedTreeRecursion.StraightPathSum;
 
 /**
  * Given a binary tree in which each node contains an integer number. Find the maximum possible path sum from a leaf to root.

@@ -1,4 +1,4 @@
-package DataStructure.Tree.CommonBinaryTree.AdvancedTreeRecursion;
+package DataStructure.Tree.CommonBinaryTree.AdvancedTreeRecursion.LCA;
 
 /**
  * Given two nodes in a binary tree (with parent pointer available), find their lowest common ancestor.

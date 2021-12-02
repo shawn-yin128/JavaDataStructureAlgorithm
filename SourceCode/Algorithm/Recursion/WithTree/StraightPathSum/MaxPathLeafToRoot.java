@@ -1,4 +1,4 @@
-package Algorithm.Recursion.WithTree;
+package Algorithm.Recursion.WithTree.StraightPathSum;
 
 import DataStructure.Tree.CommonBinaryTree.AdvancedTreeRecursion.ClosetNumberII;
 

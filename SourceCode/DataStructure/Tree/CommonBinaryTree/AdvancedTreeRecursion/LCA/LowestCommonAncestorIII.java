@@ -1,4 +1,4 @@
-package Algorithm.Recursion.WithTree;
+package DataStructure.Tree.CommonBinaryTree.AdvancedTreeRecursion.LCA;
 
 /**
  * Given two nodes in a binary tree, find their lowest common ancestor (the given two nodes are not guaranteed to be in the binary tree).
@@ -63,5 +63,5 @@ public class LowestCommonAncestorIII {
 
 /**
  * time complexity: O(n)
- * space complexity: O(height)
+ * space complexity: O(1)
  */

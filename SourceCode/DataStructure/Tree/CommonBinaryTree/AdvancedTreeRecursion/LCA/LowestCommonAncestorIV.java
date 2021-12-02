@@ -1,4 +1,4 @@
-package Algorithm.Recursion.WithTree;
+package DataStructure.Tree.CommonBinaryTree.AdvancedTreeRecursion.LCA;
 
 import java.util.HashSet;
 import java.util.List;
@@ -43,5 +43,5 @@ public class LowestCommonAncestorIV {
 
 /**
  * time complexity: O(n)
- * space complexity: O(height + k) k is the size of list because we new a set of that list
+ * space complexity: O(height + k)
  */

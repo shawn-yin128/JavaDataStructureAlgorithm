@@ -1,4 +1,4 @@
-package DataStructure.Tree.CommonBinaryTree.AdvancedTreeRecursion;
+package Algorithm.Recursion.WithTree.LCA;
 
 import java.util.ArrayList;
 import java.util.List;

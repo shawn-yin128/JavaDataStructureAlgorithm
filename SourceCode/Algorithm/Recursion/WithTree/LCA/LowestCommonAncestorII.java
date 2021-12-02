@@ -1,4 +1,4 @@
-package Algorithm.Recursion.WithTree;
+package Algorithm.Recursion.WithTree.LCA;
 
 /**
  * Given two nodes in a binary tree (with parent pointer available), find their lowest common ancestor.
