@@ -16,28 +16,32 @@ public class PreOrderAndInOrderReconstruct {
         }
     }
 
-    public TreeNode reconstructII(int[] inOrder, int[] preOrder) {
-        Map<Integer, Integer> index = new HashMap<>();
-        index = indexMap(inOrder, index);
-        TreeNode root = helperII(index, preOrder, 0, inOrder.length - 1, 0, preOrder.length - 1);
-        return root;
+    public TreeNode reconstruct(int[] inOrder, int[] preOrder) {
+        Map<Integer, Integer> index = getIndex(inOrder);
+        return helper(index, preOrder, 0, inOrder.length - 1, 0, preOrder.length - 1);
     }
 
-    private Map<Integer, Integer> indexMap(int[] inOrder, Map<Integer, Integer> index) {
+    private Map<Integer, Integer> getIndex(int[] inOrder) {
+        Map<Integer, Integer> index = new HashMap<>();
         for (int i = 0; i < inOrder.length; i++) {
             index.put(inOrder[i], i);
         }
         return index;
     }
 
-    private TreeNode helperII(Map<Integer, Integer> index, int[] preOrder, int inLeft, int inRight, int preLeft, int preRight) {
+    private TreeNode helper(Map<Integer, Integer> inOrder, int[] preOrder, int inLeft, int inRight, int preLeft, int preRight) {
         if (inLeft > inRight) {
             return null;
         }
         TreeNode curRoot = new TreeNode(preOrder[preLeft]);
-        int rootIdx = index.get(curRoot.key);
-        curRoot.left = helperII(index, preOrder, inLeft, rootIdx - 1, preLeft + 1, preLeft + rootIdx - inLeft);
-        curRoot.right = helperII(index, preOrder, rootIdx + 1, inRight, preLeft + rootIdx - inLeft + 1, preRight);
+        int idx = inOrder.get(curRoot.key);
+        curRoot.left = helper(inOrder, preOrder, inLeft, idx - 1, preLeft + 1, preLeft + idx - inLeft);
+        curRoot.right = helper(inOrder, preOrder, idx + 1, inRight, preLeft + 1 + idx - inLeft, preRight);
         return curRoot;
     }
 }
+
+/**
+ * time complexity: O(n)
+ * space complexity: O(height)
+ */
