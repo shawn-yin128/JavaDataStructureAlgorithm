@@ -40,5 +40,5 @@ public class MeetingRoomI {
 
 /**
  * time complexity: O(nlogn)
- * space complexity: O(1)
+ * space complexity: O(n) if merge sort O(n) or O(logn) if quick sort
  */
