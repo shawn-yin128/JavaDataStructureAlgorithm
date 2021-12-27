@@ -47,3 +47,8 @@ public class KSortedArrayMerge {
         return result;
     }
 }
+
+/**
+ * time complexity: O(knlogk)
+ * space complexity: O(k)
+ */
