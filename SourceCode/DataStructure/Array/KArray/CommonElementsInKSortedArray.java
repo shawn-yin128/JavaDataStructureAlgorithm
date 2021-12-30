@@ -1,32 +1,32 @@
 package DataStructure.Array.KArray;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrays;
 
 public class CommonElementsInKSortedArray {
-    public List<Integer> common(List<List<Integer>> arrays) {
-        List<Integer> result = arrays.get(0);
-        for (int i = 1; i < arrays.size(); i++) {
-            result = helper(result, arrays.get(i));
+    public int[] common(int[][] arrays) {
+        int[] result = arrays[0];
+        for (int i = 1; i < arrays.length; i++) {
+            result = helper(result, arrays[i]);
         }
         return result;
     }
 
-    private List<Integer> helper(List<Integer> l1, List<Integer> l2) {
+    private int[] helper(int[] l1, int[] l2) {
         int i = 0;
         int j = 0;
-        List<Integer> result = new ArrayList<>();
-        while (i < l1.size() && j < l2.size()) {
-            if (l1.get(i).equals(l2.get(j))) {
-                result.add(l1.get(i));
+        int cur = 0;
+        int[] result = new int[Math.min(l1.length, l2.length)];
+        while (i < l1.length && j < l2.length) {
+            if (l1[i] == l2[j]) {
+                result[cur++] = l1[i];
                 i++;
                 j++;
-            } else if (l1.get(i) < l2.get(j)) {
+            } else if (l1[i] < l2[j]) {
                 i++;
             } else {
                 j++;
             }
         }
-        return result;
+        return Arrays.copyOfRange(result, 0, cur);
     }
 }
