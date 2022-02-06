@@ -6,15 +6,20 @@ package Algorithm.DynamicProgramming.OneDArray;
  */
 public class PartitionPalindrome {
     public int minCutPalindrome(String input) {
+        if (input == null || input.length() == 0) {
+            return 0;
+        }
         int[] cut = new int[input.length() + 1];
         cut[0] = 0;
         cut[1] = 0;
         for (int i = 2; i < cut.length; i++) {
             cut[i] = Integer.MAX_VALUE;
             for (int j = 0; j < i; j++) {
-                if (isPalindrome(input.substring(j, i))) {
-                    cut[i] = 0;
-                    break;
+                if (j == 0) {
+                    if (isPalindrome(input.substring(j, i))) {
+                        cut[i] = 0;
+                        break;
+                    }
                 } else {
                     if (isPalindrome(input.substring(j, i))) {
                         cut[i] = Math.min(cut[i], cut[j] + 1);
