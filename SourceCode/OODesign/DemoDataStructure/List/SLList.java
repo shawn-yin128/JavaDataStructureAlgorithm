@@ -1,16 +1,16 @@
 package OODesign.DemoDataStructure.List;
 
-class IntNode {
-    public int value;
-    public IntNode next;
-
-    public IntNode(int value, IntNode next) {
-        this.value = value;
-        this.next = next;
-    }
-}
-
 public class SLList {
+    static class IntNode {
+        public int value;
+        public IntNode next;
+
+        public IntNode(int value, IntNode next) {
+            this.value = value;
+            this.next = next;
+        }
+    }
+
     public IntNode head;
     public IntNode tail;
     private int size;
